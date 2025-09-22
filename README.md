@@ -1,11 +1,44 @@
-# Blackjack
+# Blackjack Game (Java GUI)
 
-Personalized Blackjack game in Java GUI using JFrame, JPanel, and JButton.
+A personalized Blackjack game built in Java, with a graphical user interface. Uses Swing components (`JFrame`, `JPanel`, `JButton`) and follows standard Blackjack rules. Designed for both playing and demonstrating object-oriented Java design, GUI programming, and game logic.
 
-Used a multi-class system that allowed to personalize the game and make it as accurate as I can by implement behaviors and rules that the player and dealer are required to follow.
+---
 
-Examples:
--  Soft-17 rule for the dealer: making it so the dealer has to say when he reaches a value of 17 even if he has an Ace in hand.
--  "Hit" and "Stay" buttons for UI so that the player can interact with the application.
+## 🎮 Features
 
-Added image insertion so the application updates when the Player decided to "Hit" or get another card. This was done by accessing files and adding an ImageIcon into the panel.
+- User interface with **Hit**, **Stay**, and **Deal** options.  
+- Dealer follows the **Soft-17 rule** (Dealer must hit until reaching 17 even with an Ace valued as 11).  
+- Card images displayed dynamically when a player or dealer hits or draws.  
+- Multiple classes to handle separation of concerns:
+  - Game logic (deck, hand evaluations, deals)  
+  - GUI management  
+  - Event handling  
+- Rules and behaviors implemented to closely mirror real casino Blackjack.
+
+---
+
+## 🛠️ Technologies Used
+
+- Java (SE)  
+- Swing library (`JFrame`, `JPanel`, `JButton`, `ImageIcon`)  
+- Object-oriented design principles (encapsulation, modularity)  
+- Resource files for card images and assets
+
+---
+
+## 📦 Getting Started
+
+These instructions will help you run the project locally.
+
+### Prerequisites
+
+- Java Development Kit (JDK) 8 or higher  
+- (Optional) An IDE (Eclipse, IntelliJ IDEA, NetBeans, etc.)
+
+### Steps to Run
+
+1. Clone this repo:
+
+   ```bash
+   git clone https://github.com/SavanPatel9/Blackjack.git
+   cd Blackjack
